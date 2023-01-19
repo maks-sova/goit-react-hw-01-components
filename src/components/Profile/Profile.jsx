@@ -20,7 +20,7 @@ export const Profile = (props) => {
                 <img
                         src={avatar}
                         alt="User avatar"
-                        name="avatar"
+                        name={avatar}
                 />
                 <p className={css.name}>{username}</p>
                 <p className={css.tag}>{tag}</p>
