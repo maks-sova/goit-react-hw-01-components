@@ -20,7 +20,7 @@ export const Profile = (props) => {
                 <img
                         src={avatar}
                         alt="User avatar"
-                        name={avatar}
+                        className={css.avatar}
                 />
                 <p className={css.name}>{username}</p>
                 <p className={css.tag}>{tag}</p>
@@ -52,9 +52,5 @@ Profile.propTypes = {
     tag:PropTypes.string.isRequired,
     location:PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
-    stats: PropTypes.shape({
-            followers:PropTypes.string,
-            views:PropTypes.string,
-            likes:PropTypes.string,
-    }).isRequired
+    stats: PropTypes.objectOf(PropTypes.number).isRequired
 }
