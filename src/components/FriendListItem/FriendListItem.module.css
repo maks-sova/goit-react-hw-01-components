@@ -1,0 +1,26 @@
+.item{
+    margin-left: auto;
+    margin-right: auto;
+}
+.status{
+    display: flex;
+    border-radius: 100%;
+    width: 1px;
+    height: 1px;
+    margin:auto
+}
+.false{
+border: 10px solid red;
+}
+.true{
+border: 10px solid green;
+}
+.avatar{
+    width: 80px;
+    margin-top: 10px;
+    
+}
+.name{
+    font-size: 20px;
+   text-align: center;
+}

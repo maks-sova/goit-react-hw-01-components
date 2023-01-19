@@ -1,0 +1,30 @@
+.profile{
+    text-align: center;
+    margin: 10px;
+
+}
+.description{
+margin: 10px;
+}
+.name{
+    font-size: 24px;
+}
+.tag{
+    color: gray;
+}
+.location{
+    color:gray;
+}
+.stats{
+    display: inline-box;
+   padding: 0px;
+    list-style: none;
+   
+}
+.label{
+    margin: 10px;
+}
+.quantity{
+     margin-left: 10px;
+
+}

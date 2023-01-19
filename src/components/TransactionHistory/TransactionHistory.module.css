@@ -1,0 +1,32 @@
+.transaction_history{
+    width: calc(100% /1.5);
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.transaction{
+    background:cornsilk;
+    color:darkblue;
+ 
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid black;
+   
+   
+}
+.kon{
+    background:aquamarine;
+    color:darkblue;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.mot{
+  text-align: center;
+}
